@@ -127,6 +127,7 @@ public class FragmentPredicators extends Fragment {
         };
         Arrays.asList( "1", "2", "3" ).forEach( printString );
 
+        
         /* sorts all elements in a collection using a lambda expression as comparator */
         List<String> names = Arrays.asList( "Prado", "Gugenheim", "Reina Sofia", "Louvre" );
         Collections.sort( names, (String a, String b ) -> b.compareTo( a ) );
